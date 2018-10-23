@@ -1,0 +1,52 @@
+html {
+	height: 100%;
+}
+
+body{
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+	background-position: center;
+    background-size: cover;
+}
+
+header{
+	margin-bottom: 20px;
+	width:100%;
+}
+
+.theButton{
+	background-color: #202364;
+	color: white;
+	padding: 10px;
+	margin: 25px;
+	float: center;
+
+}
+
+#startBtn{
+	background-color: #313477;
+	color: white;
+	font-size: 30px;
+	padding: 20px;
+	margin: 100px;
+	float: center;
+}
+.startBtn:hover{
+	background-color: #202364;
+}
+
+.container{
+	margin-top: 50px;
+	text-align: center;
+	height: 100%;
+	width: 700px;
+}
+
+@media screen and (max-width:640px){
+	.container{
+		width: 500px;
+		margin-top: 200px;
+		size: 200%;
+	}	
+}
